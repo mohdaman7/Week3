@@ -1,4 +1,5 @@
 function appReducer(state,action) {
+
     switch(action.type){
       case 'change-value':
         return {
@@ -22,5 +23,4 @@ function appReducer(state,action) {
     }
     
   }
-
   export default appReducer
